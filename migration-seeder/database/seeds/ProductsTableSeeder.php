@@ -20,7 +20,7 @@ class ProductsTableSeeder extends Seeder
             $nuovo_prodotto->name = $dati_prodotto['nome'];
             $nuovo_prodotto->price = $dati_prodotto['prezzo'];
             $nuovo_prodotto->category = $dati_prodotto['categoria'];
-           $nuovo_prodotto->save();
+            $nuovo_prodotto->save();
         }
         for ($i=0; $i < 10 ; $i++) {
             $nuovo_prodotto = new Product();
